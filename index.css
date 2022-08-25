@@ -1,0 +1,110 @@
+@font-face {
+    font-family: digital;
+    src: url("SFDigitalReadout-Heavy.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    box-sizing: content-box;
+    background-color: #9AABD8;
+}
+
+.team-container, .score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #191970;
+    background-image: linear-gradient(#191970, #121251);
+    color: #D3D3F5;
+    padding: 68px 20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.team-container {
+    flex-direction: column;
+}
+
+.score-container {
+    width: 155px;
+    height: 120px;
+    background-color: #090928;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.score {
+  font-size: 100px;  
+  margin: 0;
+  font-family: digital; 
+  color: #F94F6D;
+}
+
+.team-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.button-container {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-btn {
+    height: 45px;
+    width: 45px;
+    padding: 0;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-family: digital; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-image: linear-gradient(#151561, #191970);
+    font-size: 31px;
+}
+
+.add-btn:active {
+    color: #F94F6D;
+    border: 1px solid #F94F6D;
+}
+
+#clear-btn {
+    background-color: #D3D3F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6px 22px;
+    /* width: 230px;
+    height: 50px; */
+    color: #191970;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: -4px -4px 6px #777 inset, 4px 4px 6px white inset;
+}
+
+#clear-btn:hover {
+    color: #2727B2;
+}
+
+#clear-btn:active {
+    /* font-size: 31px; */
+    box-shadow: 4px 4px 6px #777 inset, -4px -4px 6px white inset;
+}
